@@ -27,7 +27,14 @@ main img{
   color: black;
 }
 
+h1{
+  color:var(--color-naranja);
 
+}
+.closer{
+  font-size: 50px;
+  font-weight: 600;
+}
 @media (min-width: 768px) {
   main img:hover{
   opacity:0.7;
