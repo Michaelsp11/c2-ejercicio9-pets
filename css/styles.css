@@ -34,8 +34,9 @@
     }
 
     nav .links>.link.active,
-    nav .links>.link.active .dropdown .dropdown-list li.active {
+    nav .links>.link.active .dropdown .dropdown-list li:hover {
         color: var(--color-naranja);
+        cursor: pointer;
     }
 
     nav .links>.link.active::after {
