@@ -10,25 +10,6 @@
         font-size: 24px;
     }
 
-    .btn-buynow:hover {
-        background-color: var(--color-naranja);
-        color: #fff;
-    }
-
-    .btn-viewall {
-        width: 205px;
-        height: 83px;
-        color: white;
-        font-size: 24px;
-        background-color: var(--color-naranja);
-    }
-
-    .btn-viewall:hover {
-        border: 3px solid var(--color-naranja);
-        background-color: #fff;
-        color: #000;
-    }
-
     .contenedor-principal .activities {
         justify-content: space-around;
     }
@@ -41,20 +22,6 @@
         padding-top: 22px;
         padding-bottom: 22px;
         box-shadow: 0px 4px 15px 2px rgb(0 0 0 / 10%);
-    }
-
-    h1 {
-        color: var(--color-naranja);
-    }
-
-    .closer {
-        font-size: 50px;
-        font-weight: 600;
-    }
-
-    .viewall:hover {
-        background-color: white;
-        color: var(--color-naranja);
     }
 
     nav .links .link,
@@ -143,13 +110,43 @@
         font-size: 18px;
     }
 
+    .cabecera-main {
+        padding-top: 33px;
+    }
+
+    .cabecera-main .title-page {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: var(--color-naranja);
+    }
+
+    .cabecera-main .closer {
+        padding-top: 15px;
+        font-size: 39px;
+        font-weight: 600;
+    }
+
+    .cabecera-main .container-viewall {
+        padding-top: 48px;
+    }
+
+    .cabecera-main .btn-viewall {
+        width: 136px;
+        height: 54px;
+        font-size: 12px;
+        border: 3px solid var(--color-naranja);
+        background-color: #fff;
+        color: #000;
+    }
+
     @media (min-width: 992px) {
         .contenedor-principal .activities {
             justify-content: initial;
         }
         .activities {
-            padding-top: 70px;
-            padding-bottom: 70px;
+            padding-top: 50px;
+            padding-bottom: 50px;
         }
         .activities .activity+.activity {
             padding-top: 0;
@@ -177,5 +174,34 @@
         .activities .activity:hover .title,
         .activities .activity:hover .name {
             opacity: 1;
+        }
+        .cabecera-main {
+            padding-top: 146px;
+        }
+        .cabecera-main .title-page {
+            font-size: 21px;
+        }
+        .cabecera-main .closer {
+            padding-top: 0;
+            font-size: 62px;
+        }
+        .cabecera-main .container-viewall {
+            padding-top: 0;
+        }
+        .cabecera-main .btn-viewall {
+            width: 185px;
+            height: 66px;
+            color: white;
+            font-size: 17px;
+            background-color: var(--color-naranja);
+        }
+        .cabecera-main .btn-viewall:hover {
+            border: 3px solid var(--color-naranja);
+            background-color: #fff;
+            color: #000;
+        }
+        .btn-buynow:hover {
+            background-color: var(--color-naranja);
+            color: #fff;
         }
     }
