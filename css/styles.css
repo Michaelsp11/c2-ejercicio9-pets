@@ -140,7 +140,10 @@
         background-color: #fff;
         color: #000;
     }
-
+      .icona{
+        height: 30px;
+        width: 30px;
+    }
     @media (min-width: 992px) {
         .contenedor-principal .activities {
             justify-content: initial;
@@ -205,4 +208,8 @@
             background-color: var(--color-naranja);
             color: #fff;
         }
+        .icona{
+          visibility: hidden;
+        }
     }
+
